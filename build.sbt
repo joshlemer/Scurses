@@ -5,7 +5,7 @@ import sbt._
 lazy val commonSettings: Seq[Setting[_]]  = Seq(
   name := "Scurses Project",
   version := "1.0",
-  scalaVersion := "2.12.1",
+  scalaVersion := "2.12.4",
   scalacOptions ++= Seq("-feature", "-unchecked")
 )
 
